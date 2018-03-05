@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audiomar Systems</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/audiomar.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/superslides.css">	
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Arima+Madurai|Josefin+Slab|Poiret+One|Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function() {
+			if($(window).scrollTop()) {
+				$('#header').addClass('black');
+				$('#slides').addClass('out');
+			}
+			else {
+				$('#slides').removeClass('out');
+				$('#header').removeClass('black');
+			}
+		})
+	</script>
+</head>
+<body>
+	<section id="wrapper"> <!-- wrapper --> 		
+		<nav id="header"> <!-- header --> 
+			<div id="logo"> <!-- logo -->
+				<!-- <img src="images/logo.jpg" width="80px" height="50px"> -->
+				<a href="#wrapper">Audiomar</a>
+			</div> 
+			<ul>
+				<li><a href="#nosotros">Nosotros</a></li>
+				<li><a href="#hacemos">Servicios</a></li>
+				<li><a href="#elegirnos">Por qué Elegirnos</a></li>
+				<li><a href="#portafolio">Portafolio</a></li>
+				<li><a href="#clientes">Clientes</a></li>
+				<li><a href="#contactenos">Contactenos</a></li>
+			</ul>
+		</nav> 
+
+		<div id="slides"> <!-- slides --> 
+			<ul class="slides-container">
+				<!-- OTRAS IMAGENES
+				<li><img src="images/Demo1.jpg"></li>
+				<li><img src="images/Demo2.jpg"></li>
+				<li><img src="images/Demo3.jpg"></li> 
+				|-->
+				<li>
+					<img src="images/Demo4.jpg">
+					<div class="slides_content">
+						<h2 class="slides_titulo">Titulo 1: Producto 1</h2>
+						<p class="slides_descripcion">Descripción del banner o imagen que está visible en ese momento. Corresponde al banner 1.</p>
+					</div>
+					
+				</li>
+				<li>
+					<img src="images/Demo1.jpg">
+					<div class="slides_content">
+						<h2 class="slides_titulo">Titulo 2</h2>
+						<p class="slides_descripcion">Descripción del banner o imagen que está visible en ese momento. Corresponde al banner 2</p>
+					</div>
+					
+				</li>
+				<li>
+					<img src="images/Demo6.jpg">
+					<div class="slides_content">
+						<h2 class="slides_titulo">Titulo 3</h2>
+						<p class="slides_descripcion">Descripción del banner o imagen que está visible en ese momento. Corresponde al banner 3</p>	
+					</div>
+				</li>
+			</ul>			
+			<nav class="slides-navigation">
+				<a href="#" class="next"><i class="fas fa-arrow-alt-circle-right"></i></a>
+				<a href="#" class="prev"><i class="fas fa-arrow-alt-circle-left"></i></a>
+			</nav>			
+		</div>
+		<div class="mouse">
+			<img src="images/mouse.svg" height="40px" width="40px;">
+		</div>
+	</section>
+
+	<section id="nosotros"><!-- Sobre Nosotros -->
+		<h2>Hola...</h2>
+		<div class="nosotros-content">
+
+			<p>Somos una empresa de reparación de equipos electrónicos fundada en 1997. Con más de 20 años que avalan nuestra trayectoria, hoy podemos decir que la calidad y el mejor servicio están garantizados. </p>
+			<p>Ponemos a su disposición el mejor talento en reparación de equipos electrónicos, electrodomésticos, consolas de sonido, equipos de cómputo, cámaras digitales, cámaras de video vigilancia, entre otros.</p> 
+			
+			<button class="call-action" > Conócenos más...</button>
+
+		</div>		
+
+	</section>
+	
+	<section id="hacemos"><!-- Que hacemos --> 
+		<div>
+			<h2>Nuestros Servicios</h2>
+		</div>
+		<div id="servicios">
+			<div class="servicio">
+				<img src="images/services/1.png">
+				<div class="servicio-cuerpo">
+					<div class="servicio-titulo">Servicio técnico de Electrodomésticos</div>
+				</div>
+			</div>
+
+			<div class="servicio">
+				<img src="images/services/2.png">
+				<div class="servicio-cuerpo">
+					<div class="servicio-titulo">Servicio técnico de Computadoras</div>
+				</div>
+			</div>
+			<div class="servicio">
+				<img src="images/services/3.png">
+				<div class="servicio-cuerpo">
+					<div class="servicio-titulo">Instalación de Cámaras de Video Vigilancia</div>
+				</div>
+			</div>
+			<div class="servicio tienda">
+				<img src="images/services/4.fw.png">
+				<div class="servicio-cuerpo">
+					<div class="servicio-titulo">Próximamente Tienda Virtual</div>
+				</div>
+			</div>
+		</div>
+		<button class="call-action">Solicita una Cotización</button>
+	</section>
+	
+	<section id="elegirnos"><!-- Por que Elegirnos --> 
+		<div>
+			<h2>Por qué Elegirnos</h2>
+		</div>
+		<div class="motivos">
+			<div class="items">
+				<i class="material-icons icono">high_quality</i>
+				<h3 class="titulo">Calidad</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>
+			<div class="items">
+				<i class="material-icons icono">update</i>
+				<h3 class="titulo">24/7</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>
+			<div class="items">
+				<i class="material-icons icono">monetization_on</i>
+				<h3 class="titulo">Económico</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>
+			<div class="items">
+				<i class="material-icons icono">alarm_on</i>
+				<h3 class="titulo">Puntualidad</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>
+			<div class="items">
+				<i class="material-icons icono">place</i>
+				<h3 class="titulo">Ubiucación Estratégica</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>
+			<div class="items">
+				<i class="material-icons icono">add_shopping_cart</i>
+				<h3 class="titulo">Variedad de Productos</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>
+			<!-- <div class="items">
+				<i class="material-icons icono">accessibility</i>
+				<h3 class="titulo">Trato Directo</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>
+			<div class="items">
+				<i class="material-icons icono">sentiment_very_satisfied</i>
+				<h3  class="titulo">Garantía de Satisfacción</h3>
+				<p class="descripcion">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p> 
+			</div>	 -->
+		</div>
+		
+	</section>
+
+	<section id="portafolio"><!-- Nuestros trabajos --> 
+		<div class="work">
+			<div class="trabajo">
+				<img src="images/portafolio/1.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 1</div>
+			</div>
+			<div class="trabajo">
+				<img src="images/portafolio/2.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 2</div>
+			</div>
+			<div class="trabajo">
+				<img src="images/portafolio/3.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 3</div>
+			</div>
+			<div class="trabajo">
+				<img src="images/portafolio/4.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 4</div>
+			</div>
+			<div class="trabajo">
+				<img src="images/portafolio/5.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 5</div>
+			</div>
+			<div class="trabajo">
+				<img src="images/portafolio/6.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 6</div>
+			</div>
+			<div class="trabajo">
+				<img src="images/portafolio/7.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 7</div>
+			</div>
+			<div class="trabajo">
+				<img src="images/portafolio/8.png">
+				<div class="views">
+					<button class="circle"><i class="material-icons">open_with</i></button>
+					<button class="circle"><i class="material-icons">info_outline</i></button>
+				</div>
+				<div class="trabajo-titulo">Proyecto 8</div>
+			</div>
+		</div>
+		
+	</section>
+	
+	<section id="clientes"><!-- Clientes -->
+		<h2>Ellos confían en nosotros</h2>
+		<div class="logos">
+			<div class="cliente">
+				<img src="images/logo/1.png">
+			</div>	
+			<div class="cliente">
+				<img src="images/logo/2.png">
+			</div>	
+			<div class="cliente">
+				<img src="images/logo/3.png">
+			</div>	
+			<div class="cliente">
+				<img src="images/logo/4.png">
+			</div>	
+			<div class="cliente">
+				<img src="images/logo/5.png">
+			</div>	
+			<div class="cliente">
+				<img src="images/logo/6.png">
+			</div>	
+			<div class="cliente">
+				<img src="images/logo/7.png">
+			</div>	
+			<div class="cliente">
+				<img src="images/logo/8.png">
+			</div>	
+		</div>
+	</section>
+
+
+	<section id="contactenos">	<!-- Contactenos -->
+		<div>
+			<h2>Contáctenos</h2>
+		</div>
+		<div class="redes">
+			<div class="redes-btn">
+				<img src="images/logo/redes/1.png">
+			</div>	
+			<div class="redes-btn">
+				<img src="images/logo/redes/2.png">
+			</div>	
+			<div class="redes-btn">
+				<img src="images/logo/redes/3.png">
+			</div>	
+			<div class="redes-btn">
+				<img src="images/logo/redes/4.png">
+			</div>	
+			<div class="redes-btn">
+				<img src="images/logo/redes/5.png">
+			</div>	
+			<div class="redes-btn">
+				<img src="images/logo/redes/6.png">
+			</div>	
+		</div>
+	</section>
+	<div class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1913.7271639403893!2d-71.53096183196578!3d-16.40173648232522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a55d0762c2b%3A0xff0238d475df52e4!2sArequipa+Tienda+DLV!5e0!3m2!1ses!2spe!4v1520245333465" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	
+	</div>
+	
+	<footer id="footer"> <!-- Footer -->
+		<div class="content-footer">
+			<div class="item-footer foot-contacto">
+				<h2>Audiomar</h2>
+				Calle Manuel Muñoz Najar Int XXTda 20<br>
+				Arequipa - Perú<br>
+				<a href="mailto:jose1532@hotmail.com"> <span>contacto@audiomar.com</a></span>
+			</div>
+			<div class="item-footer">
+				<h2>Horario de Atención</h2>
+				<p>De lunes a viernes de 9:00 a.m. a 18:30 p.m.</p>
+				<p>Sábados de 9:00 a.m. a 12:30 p.m.</p>
+				<p>Domingos cerrado</p>
+			</div>
+			<div class="item-footer">
+				<form class="formulario">
+		          <div class="col1">
+		            <label for="nombre">Nombre</label>
+		            <input type="text" required id="nombre" name="nombre" />
+		            <label for="email">E-mail</label>
+		            <input type="email" required id="email"  name="mujer" />
+		          <div class="sexo">
+		            <label for="mujer">
+		              <input type="radio" id="mujer" name="sexo" value="mujer" checked="true">Mujer
+		            </label>
+		            <label for="hombre">
+		              <input type="radio" id="hombre" name="sexo" value="hombre">Hombre
+		            </label>  
+		          </div>
+		          <div class="intereses">
+		            <label for="cotizacion">
+		              <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" checked="true">Cotización
+		            </label>
+		            <label for="reclamos">
+		              <input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+		            </label>
+		            <label for="comentarios">
+		              <input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+		            </label>
+		            <label for="otros">
+		              <input type="checkbox" id="otros" name="intereses" value="otros">Otros
+		            </label>
+		          </div>
+		          </div>          
+		         
+		          <div class="col2">
+		            <label for="comentarios">Comentarios</label>
+		            <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+		            <button class="call-action" type="submit" name="">Enviar</button>
+		          </div>
+		        </form> 
+			</div>
+		</div>
+		
+	</footer>
+	<script src="assets/js/jquery.js"></script>  
+	<script src="assets/js/jquery.superslides.js"></script>  
+	<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+</body>
+</html>
