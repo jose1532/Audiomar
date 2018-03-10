@@ -275,14 +275,18 @@ nav.black ul li a:hover{
 }
 
 #hacemos{
-	background-color: #dbdde0;
-	padding: 82px 50px;
-	color: #888;/*#616161; #424242;*/
-	text-align: center;
-	font-size: 22px;
 	background: url('../../images/Demo6.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
+	background-color: #dbdde0;
+	padding: 100px 50px 100px;
+	color: #888;/*#616161; #424242;*/
+	text-align: center;
+	font-size: 22px;
+	z-index: 0;
+	height: calc(50vh)
+
 }
 
 #hacemos h2{
