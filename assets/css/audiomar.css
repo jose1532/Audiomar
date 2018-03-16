@@ -520,3 +520,77 @@ footer h2{
 .tabla{
 	margin: 50px 0;
 }
+
+
+@media screen and (max-width: 1080px) {
+	#nosotros{
+		background-size: 500px 100%;
+	}
+
+	#nosotros h2{
+		margin: 30px 0 0 250px;
+		font-size: 48px;
+	}
+
+	.nosotros-content{
+		padding: 0 0 50px;
+		margin: 0 0 0 250px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#nosotros{
+		background-size: 500px 100%;
+	}
+
+	#nosotros h2{
+		margin: 30px 0 0 250px;
+		font-size: 38px;
+	}
+
+	.nosotros-content{
+		font-size: 16px;
+		padding: 0 0 50px;
+		margin: 0 0 0 250px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	#nosotros{
+		background-size: 400px 100%;
+	}
+
+	#nosotros h2{
+		margin: 30px 0 0 180px;
+		font-size: 34px;
+		color: blue;
+	}
+
+	.nosotros-content{
+		font-size: 14px;
+		padding: 0 0 50px;
+		margin: 0 0 0 180px;
+	}
+}
+
+
+/* ESTILOS NORMALES (para móviles en vertical)
+   ========================================================================= /
+ 
+body { ... }
+p    { ... }
+ 
+/ RESPONSIVE
+   ========================================================================= /
+ 
+/ Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- /
+@media (min-width: 768px) { }
+ 
+/ Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- /
+@media (min-width: 1024px) { }
+ 
+/ Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+/*@media (min-width: 1200px) { }*/
